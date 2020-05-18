@@ -39,7 +39,7 @@ a. Sampling the stocks by randomly selecting 100 stocks from each group, total 3
 b. Use libcurl lib to retrieve 241 days of historical prices for each stock and IWB around the date of earning release (You could enhance our class example for this purpose).
 c. For each stock calculate the daily returns Rit for 120 days before the day “zero” and 120 days after : t = -120, -119,…-1, 0, 1,…, 119, 120:
 d. Calculate the corresponding daily return Rmt for IWB for the same days.
-e. Define abnormal returns as the difference ARit= Rit–Rmt.
+e. Define abnormal returns as the difference AR
 f. Calculate average daily abnormal returns for each group of stocks for all 240 reference days
 g. Cumulate the returns on the first T days to CAAR
 h. Repeat steps a to g 5 times and calculate the average CAAR for 3 samplings:  
@@ -48,13 +48,13 @@ h. Repeat steps a to g 5 times and calculate the average CAAR for 3 samplings:
 
 Project Tasks:
 
-Task 1: Earning research: sort stocks from Russell 1000 into 3 groups based on their earnings and EPS Estimate from Bloomberg terminal.
-Task 2: Project Design:
-a) Create classes and data structure such as vectors, matrix and maps.
-b) Figure out how to handle historical price retrieval from Yahoo Finance for so many stocks and parse the retrieved data?
-c) Figure out how to implement your Bootstrap algorithm?
-Task 3: Divide the project into modules and assign team members working on each module.
-Task 5: Module Integration and Testing
+Task 1: Earning research: sort stocks from Russell 1000 into 3 groups based on their earnings and EPS Estimate from Bloomberg terminal.  
+Task 2: Project Design:  
+a) Create classes and data structure such as vectors, matrix and maps.  
+b) Figure out how to handle historical price retrieval from Yahoo Finance for so many stocks and parse the retrieved data?  
+c) Figure out how to implement your Bootstrap algorithm?   
+Task 3: Divide the project into modules and assign team members working on each module.  
+Task 5: Module Integration and Testing. 
 Task 6: Presentation Preparation.
 
 
